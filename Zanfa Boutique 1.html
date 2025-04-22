@@ -1,0 +1,382 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf8f9] group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3e7ea] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1b0e11]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#1b0e11] text-lg font-bold leading-tight tracking-[-0.015em]">Zanfa Boutique</h2>
+          </div>
+          <div class="flex flex-1 justify-end items-center gap-10 px-4 py-2 bg-white shadow-sm">
+            <!-- Navigation Links -->
+            <nav class="flex items-center gap-8 text-sm font-medium">
+              <a href="#" class="text-[#1b0e11] hover:text-[#974e60] transition-colors duration-300">New Arrivals</a>
+              <a href="#" class="text-[#1b0e11] hover:text-[#974e60] transition-colors duration-300">Cardigans</a>
+              <a href="#" class="text-[#1b0e11] hover:text-[#974e60] transition-colors duration-300">Scarves</a>
+              <a href="#" class="text-[#1b0e11] hover:text-[#974e60] transition-colors duration-300">Accessories</a>
+              <a href="#" class="text-[#1b0e11] hover:text-[#974e60] transition-colors duration-300">Sale</a>
+            </nav>
+          
+            <!-- Search and Cart Buttons -->
+            <div class="flex items-center gap-3">
+              <button class="flex items-center justify-center h-10 w-10 bg-[#f3e7ea] text-[#1b0e11] rounded-full hover:bg-[#e9d3d9] transition duration-300 shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"/>
+                </svg>
+              </button>
+          
+              <button class="flex items-center justify-center h-10 w-10 bg-[#f3e7ea] text-[#1b0e11] rounded-full hover:bg-[#e9d3d9] transition duration-300 shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"/>
+                </svg>
+              </button>
+            </div>
+          
+            <!-- Profile Image -->
+            <div class="w-10 h-10 rounded-full overflow-hidden border-2 border-[#974e60] shadow-md hover:scale-105 transition-transform duration-300">
+              <img src="https://cdn.usegalileo.ai/sdxl10/79903334-e4d4-4111-a91a-b2a10721d8e3.png" alt="Profile" class="object-cover w-full h-full">
+            </div>
+          </div>
+        </header>
+        <div class="px-8 md:px-40 flex flex-1 justify-center py-10 bg-white">
+          <div class="layout-content-container flex flex-col max-w-6xl w-full">
+            <!-- Hero Banner -->
+            <div class="rounded-xl overflow-hidden bg-cover bg-center bg-no-repeat min-h-[480px] flex flex-col justify-end p-6 md:p-10" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)), url('https://cdn.usegalileo.ai/sdxl10/32d9e69c-cd26-4ab3-b8eb-3be49b5752cb.png');">
+              <div class="text-white space-y-2">
+                <h1 class="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">Cozy Chic Sale</h1>
+                <p class="text-base md:text-lg font-light">Tampil gaya dengan koleksi Cardigan Hijab dari Zanfa, sekarang dengan harga yang luar biasa. Penawaran waktu terbatas.</p>
+                <button class="mt-4 inline-flex items-center justify-center h-12 px-6 bg-[#e6194c] text-white font-bold rounded-xl shadow hover:bg-[#c7153f] transition">Shop Now</button>
+              </div>
+            </div>
+        
+            <!-- Featured Styles -->
+            <h2 class="text-[#1b0e11] text-2xl font-bold tracking-tight mt-10 mb-4 px-2">Featured Styles</h2>
+            <div class="flex overflow-x-auto gap-4 px-2 scrollbar-hide">
+              <div class="min-w-[240px] flex-shrink-0 bg-white rounded-xl shadow p-3 space-y-3">
+                <div class="aspect-square bg-cover bg-center rounded-xl" style="background-image: url('https://gonegani.id/cdn/shop/files/Denim_1854f015-389f-4771-be15-1071302094b6.jpg?v=1738042258&width=700');"></div>
+                <p class="text-[#1b0e11] font-medium text-sm">Beeli Cardy - Denim - 300.000<br/>Sizes: S, M, L<br/>Material: Cotton Knit</p>
+              </div>
+              <div class="min-w-[240px] flex-shrink-0 bg-white rounded-xl shadow p-3 space-y-3">
+                <div class="aspect-square bg-cover bg-center rounded-xl" style="background-image: url('https://gonegani.id/cdn/shop/files/ZenCardy-WHITEPUPLE.jpg?v=1744299051&width=700');"></div>
+                <p class="text-[#1b0e11] font-medium text-sm">Zen Cardy - White Purple - 295.000<br/>Sizes: XS, S, M<br/>Material: Soft Wool Knit</p>
+              </div>
+              <div class="min-w-[240px] flex-shrink-0 bg-white rounded-xl shadow p-3 space-y-3">
+                <div class="aspect-square bg-cover bg-center rounded-xl" style="background-image: url('https://gonegani.id/cdn/shop/files/Mocca_45d9d98d-5ea4-4624-9894-dfd309efbe6f.jpg?v=1735012145&width=1000');"></div>
+                <p class="text-[#1b0e11] font-medium text-sm">Bomi Cardy - 289.000<br/>Sizes: M, L, XL<br/>Motif: Cable</p>
+              </div>
+            </div>
+        
+            <!-- Trending Section -->
+            <h2 class="text-[#1b0e11] text-2xl font-bold tracking-tight mt-10 mb-4 px-2">Trending This Season</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 px-2">
+              <div class="bg-white rounded-xl shadow p-3 space-y-2">
+                <div class="aspect-square bg-cover bg-center rounded-xl" style="background-image: url('https://cdn.usegalileo.ai/sdxl10/8dccd9b8-d8b3-45ef-8005-3e1429750f71.png');"></div>
+                <p class="text-[#1b0e11] font-medium text-sm">Flowy Fabrics - 270.000<br/>Sizes: One Size<br/>Material: Chiffon Blend</p>
+              </div>
+              <div class="bg-white rounded-xl shadow p-3 space-y-2">
+                <div class="aspect-square bg-cover bg-center rounded-xl" style="background-image: url('https://cdn.usegalileo.ai/sdxl10/8e5d9641-f60a-4cae-9a23-86e0b41e5fbb.png');"></div>
+                <p class="text-[#1b0e11] font-medium text-sm">Versatile Layers - 258.000<br/>Sizes: S, M, L<br/>Material: Cotton Blend</p>
+              </div>
+              <div class="bg-white rounded-xl shadow p-3 space-y-2">
+                <div class="aspect-square bg-cover bg-center rounded-xl" style="background-image: url('https://cdn.usegalileo.ai/sdxl10/9e0b9b6e-bdb2-4cd0-bd89-2bfc6384e071.png');"></div>
+                <p class="text-[#1b0e11] font-medium text-sm">Cozy Knits - 320.000<br/>Sizes: XS, S, M<br/>Material: Merino Wool</p>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="@container">
+              <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+                <div class="flex flex-col gap-2 text-center">
+                  <h1
+                    class="text-[#1b0e11] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                  >
+                  Lengkapi Penampilan Anda
+                  </h1>
+                  <p class="text-[#1b0e11] text-base font-normal leading-normal max-w-[720px">
+                    Jelajahi koleksi aksesoris pilihan kami untuk melengkapi Cardigan Hijab Anda dengan sempurna.
+                  </p>
+                </div>
+                <h2 class="text-[#1b0e11] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Visi &amp; Misi Kami</h2>
+            <p class="text-[#1b0e11] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+              Di Zanfa Boutique, visi kami adalah memberdayakan wanita melalui mode sederhana, menawarkan Hijab Cardigan berkualitas tinggi dan bergaya yang memadukan tradisi dengan tren. 
+              Misi kami adalah untuk menyediakan beragam desain, memastikan setiap wanita menemukan ekspresi gaya dan kepercayaan dirinya yang sempurna.
+            </p>
+            <h2 class="text-[#1b0e11] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">FAQ</h2>
+            <div class="flex flex-col p-4 gap-3">
+              <details class="flex flex-col rounded-xl bg-[#f3e7ea] px-4 py-2 group" open="">
+                <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+                  <p class="text-[#1b0e11] text-sm font-medium leading-normal">Cara Memesan</p>
+                  <div class="text-[#1b0e11] group-open:rotate-180" data-icon="CaretDown" data-size="20px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                    </svg>
+                  </div>
+                </summary>
+                <p class="text-[#974e60] text-sm font-normal leading-normal pb-2">
+                  Memesan dari Zanfa Boutique sangatlah mudah. Cukup telusuri koleksi kami, pilih barang yang Anda inginkan, dan tambahkan ke keranjang Anda. Ikuti proses checkout, 
+                  dengan memberikan memberikan detail pengiriman dan pembayaran Anda. Anda akan menerima email konfirmasi pesanan setelah pembelian berhasil.
+                </p>
+              </details>
+              <details class="flex flex-col rounded-xl bg-[#f3e7ea] px-4 py-3 group shadow-md">
+                <summary class="flex cursor-pointer items-center justify-between gap-6 py-2 transition-colors duration-300 hover:text-[#974e60]">
+                  <p class="text-[#1b0e11] text-base font-semibold leading-relaxed">Pertukaran & Pengembalian</p>
+                  <div class="text-[#1b0e11] group-open:rotate-180 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                      <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"/>
+                    </svg>
+                  </div>
+                </summary>
+                <div class="text-[#974e60] text-sm font-normal leading-relaxed pt-2 pb-1 space-y-2">
+                  <p>
+                    Kami di <strong>Zanfa Boutique</strong> memahami pentingnya kenyamanan dalam berbelanja. Jika cardigan hijab yang Anda terima tidak sesuai harapan, kami siap membantu proses <strong>pertukaran</strong> maupun <strong>pengembalian</strong>.
+                  </p>
+                  <ul class="list-disc list-inside">
+                    <li>Pengajuan dapat dilakukan maksimal <strong>7 hari</strong> setelah barang diterima.</li>
+                    <li>Produk yang dikembalikan harus dalam kondisi <em>baru</em>, belum dicuci, dan masih memiliki label/tag lengkap.</li>
+                    <li>Biaya pengiriman pengembalian ditanggung oleh pembeli, kecuali jika kesalahan berasal dari pihak kami (seperti produk rusak atau salah kirim).</li>
+                  </ul>
+                  <p>
+                    Untuk memulai proses, silakan hubungi layanan pelanggan kami melalui WhatsApp atau email dengan menyertakan nomor pesanan dan alasan pengembalian.
+                  </p>
+                  <p class="italic">Kami berkomitmen untuk memastikan pengalaman belanja Anda selalu memuaskan.</p>
+                </div>
+              </details>              
+            </div>
+            <section class="bg-[#fcf8f9] py-10 px-4">
+              <h2 class="text-[#1b0e11] text-3xl font-bold tracking-tight mb-8 text-center">Customer Testimonials</h2>
+            
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+                <!-- Testimonial Card 1 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-cover bg-center rounded-full" style="background-image: url('https://cdn.usegalileo.ai/sdxl10/baeed253-7290-4d5e-bd89-359c24a74e22.png');"></div>
+                    <div>
+                      <p class="text-[#1b0e11] font-semibold text-lg">Aaliyah</p>
+                      <p class="text-[#974e60] text-sm">July 15, 2024</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                    <!-- Static 5 stars -->
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                  </div>
+                  <p class="text-[#1b0e11] text-base mb-4">
+                    Saya sangat menyukai Cardigan Hijab baru saya dari Zanfa Boutique! Kualitasnya luar biasa, dan desainnya sangat berkelas. Ini menjadi salah satu item wajib di lemari pakaian saya.
+                  </p>
+                  <div class="flex gap-6 text-[#974e60]">
+                    <!-- Like button -->
+                    <div class="flex items-center gap-1 hover:text-pink-600 cursor-pointer">
+                      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 
+                          5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 
+                          4.5 2.09C13.09 3.81 14.76 3 
+                          16.5 3 19.58 3 22 5.42 22 8.5c0 
+                          3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                      </svg>
+                      <span>5</span>
+                    </div>
+            
+                    <!-- Dislike button -->
+                    <div class="flex items-center gap-1 hover:text-pink-600 cursor-pointer">
+                      <svg class="w-5 h-5 fill-current rotate-180" viewBox="0 0 24 24">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 
+                          2 12.28 2 8.5 2 5.42 4.42 
+                          3 7.5 3c1.74 0 3.41 0.81 
+                          4.5 2.09C13.09 3.81 14.76 3 
+                          16.5 3 19.58 3 22 5.42 22 
+                          8.5c0 3.78-3.4 6.86-8.55 
+                          11.54L12 21.35z"/>
+                      </svg>
+                      <span>1</span>
+                    </div>
+                  </div>
+                </div>            
+                <!-- Testimonial Card 2 -->
+                <div class="bg-white rounded-2xl shadow-md p-6 transition hover:shadow-xl">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="w-12 h-12 bg-cover bg-center rounded-full" style="background-image: url('https://cdn.usegalileo.ai/sdxl10/e88c82de-2c73-4f5d-9508-71577a36eeed.png');"></div>
+                    <div>
+                      <p class="text-[#1b0e11] font-semibold text-lg">Fatima</p>
+                      <p class="text-[#974e60] text-sm">August 20, 2024</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                    <!-- Static 5 stars -->
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.75l-6 5.846L19.335 24 12 19.897 4.665 24 6 15.596 0 9.75l8.332-1.595z"/></svg>
+                  </div>
+                  <p class="text-[#1b0e11] text-base mb-4">
+                    Zanfa Boutique menawarkan pilihan Hijab Cardigan terbaik. Saya menghargai variasi gaya dan layanan pelanggan yang sangat baik. Sangat direkomendasikan!
+                  </p>
+                  <div class="flex gap-6 text-[#974e60]">
+                    <!-- Like button -->
+                    <div class="flex items-center gap-1 hover:text-pink-600 cursor-pointer">
+                      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 
+                          5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 
+                          4.5 2.09C13.09 3.81 14.76 3 
+                          16.5 3 19.58 3 22 5.42 22 8.5c0 
+                          3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                      </svg>
+                      <span>5</span>
+                    </div>
+                    <!-- Dislike button -->
+        <div class="flex items-center gap-1 hover:text-pink-600 cursor-pointer">
+          <svg class="w-5 h-5 fill-current rotate-180" viewBox="0 0 24 24">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 
+              2 12.28 2 8.5 2 5.42 4.42 
+              3 7.5 3c1.74 0 3.41 0.81 
+              4.5 2.09C13.09 3.81 14.76 3 
+              16.5 3 19.58 3 22 5.42 22 
+              8.5c0 3.78-3.4 6.86-8.55 
+              11.54L12 21.35z"/>
+          </svg>
+          <span>1</span>
+        </div>
+      </div>
+    </div>
+            </section>            
+                  <div class="@container">
+                    <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+                      <div class="flex flex-col gap-2 text-center">
+                        <h1
+                          class="text-[#1b0e11] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                        >
+                        Daftar untuk Penawaran Eksklusif
+                        </h1>
+                        <p class="text-[#1b0e11] text-base font-normal leading-normal max-w-[720px">
+                          Tetap terinformasi dengan tren terbaru dan dapatkan promosi khusus langsung di kotak masuk Anda.
+                        </p>
+                      </div>
+                      <div class="flex flex-1 justify-center">
+                        <div class="flex justify-center">
+                          <button
+                            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e6194c] text-[#fcf8f9] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
+                          >
+                            <span class="truncate">Subscribe</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gray-100 text-gray-900 py-12">
+                <div class="container mx-auto px-5 flex flex-col items-center">
+                  <!-- Cart Section -->
+                  <h2 class="text-3xl font-semibold text-center text-[#974e60] mb-6">Keranjang Anda</h2>
+                  <p class="text-gray-600 text-lg mb-8 text-center">Keranjang Anda saat ini kosong. Tambahkan beberapa item untuk melanjutkan pembayaran.</p>
+              
+                  <div class="flex mb-6">
+                    <button class="bg-[#974e60] hover:bg-[#9d6b7c] text-white text-lg font-semibold px-6 py-3 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 mr-4">Tambah ke troli</button>
+                    <button class="border border-[#974e60] hover:bg-[#974e60] text-[#974e60] hover:text-white text-lg font-semibold px-6 py-3 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">Beli Sekarang</button>
+                  </div>
+              
+                  <p class="text-xl font-semibold mb-4">Total: <span class="text-[#974e60]">0.00</span></p>
+
+                 <!-- Payment Methods Section -->
+<section class="py-10 px-4 bg-[#fef6f8] rounded-xl shadow-inner">
+  <h3 class="text-2xl font-bold text-center text-[#974e60] mb-8">Metode Pembayaran</h3>
+  <div class="flex flex-wrap justify-center gap-6">
+    <!-- BCA -->
+    <div class="border p-4 rounded-xl flex items-center bg-white shadow-md transition duration-300 hover:shadow-xl w-52">
+      <img src="bca.jpg" alt="BCA" class="w-10 h-10 mr-4 object-contain">
+      <span class="font-semibold text-base text-[#1b0e11]">Bank BCA</span>
+    </div>
+    <!-- Mandiri -->
+    <div class="border p-4 rounded-xl flex items-center bg-white shadow-md transition duration-300 hover:shadow-xl w-52">
+      <img src="mandiri.png" alt="Mandiri" class="w-10 h-10 mr-4 object-contain">
+      <span class="font-semibold text-base text-[#1b0e11]">Bank Mandiri</span>
+    </div>
+    <!-- Gopay -->
+    <div class="border p-4 rounded-xl flex items-center bg-white shadow-md transition duration-300 hover:shadow-xl w-52">
+      <img src="gopay.png" alt="Gopay" class="w-10 h-10 mr-4 object-contain">
+      <span class="font-semibold text-base text-[#1b0e11]">Gopay</span>
+    </div>
+    <!-- OVO -->
+    <div class="border p-4 rounded-xl flex items-center bg-white shadow-md transition duration-300 hover:shadow-xl w-52">
+      <img src="ovo.jpg" alt="OVO" class="w-10 h-10 mr-4 object-contain">
+      <span class="font-semibold text-base text-[#1b0e11]">OVO</span>
+    </div>
+    <!-- ShopeePay -->
+    <div class="border p-4 rounded-xl flex items-center bg-white shadow-md transition duration-300 hover:shadow-xl w-52">
+      <img src="Logo-ShopeePay.png" alt="ShopeePay" class="w-10 h-10 mr-4 object-contain">
+      <span class="font-semibold text-base text-[#1b0e11]">ShopeePay</span>
+    </div>
+  </div>
+</section>
+                  <p class="text-gray-600 text-sm text-center">Untuk pertanyaan mengenai pemesanan dan pembayaran, hubungi kami melalui WhatsApp.</p>
+                </div>
+              </div>              
+              <footer class="bg-gray-900 text-white py-10">
+                <div class="container mx-auto px-5 flex flex-col items-center">
+                  <!-- Links Section -->
+                  <div class="flex flex-wrap gap-6 justify-center mb-8">
+                    <a class="text-gray-300 hover:text-[#974e60] transition duration-300" href="#">About Us</a>
+                    <a class="text-gray-300 hover:text-[#974e60] transition duration-300" href="#">Contact</a>
+                    <a class="text-gray-300 hover:text-[#974e60] transition duration-300" href="#">Shipping & Returns</a>
+                    <a class="text-gray-300 hover:text-[#974e60] transition duration-300" href="#">Privacy Policy</a>
+                  </div>
+              
+                  <!-- Social Media Icons -->
+                  <div class="flex gap-6 mb-8">
+                    <a href="#" class="text-gray-300 hover:text-[#974e60] transition duration-300">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+                      </svg>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-[#974e60] transition duration-300">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path>
+                      </svg>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-[#974e60] transition duration-300">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"></path>
+                      </svg>
+                    </a>
+                  </div>
+              
+                  <!-- Contact Info -->
+                  <div class="flex flex-col items-center mb-8">
+                    <p class="text-gray-300 text-sm">Email: <a href="mailto:info@zanfaboutique.com" class="text-[#974e60] hover:text-white transition duration-300">info@zanfaboutique.com</a></p>
+                    <p class="text-gray-300 text-sm">Instagram: <a href="https://instagram.com/zanfaboutique" class="text-[#974e60] hover:text-white transition duration-300">@zanfaboutique</a></p>
+                    <p class="text-gray-300 text-sm">Phone: <a href="tel:+1234567890" class="text-[#974e60] hover:text-white transition duration-300">+62 813 9627 1562</a></p>
+                  </div>
+              
+                  <!-- Footer Text -->
+                  <p class="text-gray-300 text-sm">&copy; 2025 Zanfa Boutique. All rights reserved.</p>
+                </div>
+              </footer>              
+            </div>
+          </div>
+        </body>
+      </html>
+      
